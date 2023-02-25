@@ -1,0 +1,30 @@
+<html>
+    <!doctype html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login DNC</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+    </head>
+    <body>
+        <!-- Cabeçalho da minha página -->
+
+            <h1>Bem-Vindos a DNC</h1>
+            <imag src="./Assets/images/logoHBO.png">
+
+        <!-- Área principal da página -->
+        <main>
+            <form action="cadastrar.html" method="post">
+                <label>Email:</label>
+                <input type="email" name="email"
+                 placeholder="email@email.com">
+
+                <label>Senha</label>
+                <input type="password" name="password" placeholder="********">
+
+                <input type="submit" value="Entrar">
+            </form>
+        </main>
+    </body>
+</html>            
+    

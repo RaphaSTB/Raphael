@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url(./Background\ image.png);
+    color: white;
+    font-family: 'inter';
+    width: 1740px;
+    height: 979px;
+    left: -95px;
+    position: absolute;
+    top: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+head{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+form input{
+
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
